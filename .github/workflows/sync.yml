@@ -2,6 +2,10 @@ name: run main.py
 
 on:
   workflow_dispatch:
+    inputs:
+      authCode:
+        type: string
+        default: ""
   schedule:
     - cron: '0 0 * * 1' # At 00:00 on Monday
 
