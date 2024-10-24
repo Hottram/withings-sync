@@ -2,7 +2,7 @@
 
 name: Build and Publish Release via PyPi
 
-on: push
+on: pushx
 
 jobs:
   build-n-publish:
